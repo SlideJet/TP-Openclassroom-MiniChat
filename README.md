@@ -9,3 +9,5 @@ Objectif :
 - Affichage Date de publication d'un message
 - Ordonner par message récent
 - Protection faille XSS.
+
+![Screenshot](minichat_preview.jpg)
