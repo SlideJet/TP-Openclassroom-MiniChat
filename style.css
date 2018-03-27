@@ -1,0 +1,136 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* ---------- GENERAL ---------- */
+
+body {
+	background: #2d2d2d;
+	color: #fff;
+	font: 100%/1.5em "Droid Sans", sans-serif;
+	margin: 0;
+}
+
+input {
+	border: 0;
+	color: black;
+    font-family: inherit;
+    font-size: 100%;
+    line-height: normal;
+    margin: 0;
+    
+}
+
+a {text-decoration: none;}
+a:link {color: #ff7123;}
+a:visited {color: gray;}
+a:hover {color: red;}
+a:active {color: red;}
+
+footer{
+
+background:#424040;
+
+position:absolute;
+
+bottom:0;
+
+width:100%;
+
+padding-top:50px;
+
+height:150px;
+
+}
+
+img
+{
+	width: 15%;
+	display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.champs
+{
+	margin-left: 9px;
+}
+
+#chat {
+    color: #fff;
+    background: #2d2d2d;
+    background: -webkit-gradient(
+        linear,
+        left bottom,
+        left top,
+        color-stop(0, rgb(60,60,60)),
+        color-stop(0.74, rgb(43,43,43)),
+        color-stop(1, rgb(60,60,60))
+        );
+     background: -moz-linear-gradient(
+        center bottom,
+        rgb(60,60,60) 0%,
+        rgb(43,43,43) 74%,
+        rgb(60,60,60) 100%
+        );
+     -moz-border-radius: 10px;
+     -webkit-border-radius: 10px;
+     border-radius: 10px;
+     margin: 10px;
+     width: 430px;
+     display: block;
+    margin-left: auto;
+    margin-right: auto
+     }
+
+ #text {
+    color: #fff;
+    background: #2d2d2d;
+    background: -webkit-gradient(
+        linear,
+        left bottom,
+        left top,
+        color-stop(0, rgb(60,60,60)),
+        color-stop(0.74, rgb(43,43,43)),
+        color-stop(1, rgb(60,60,60))
+        );
+     background: -moz-linear-gradient(
+        center bottom,
+        rgb(60,60,60) 0%,
+        rgb(43,43,43) 74%,
+        rgb(60,60,60) 100%
+        );
+     -moz-border-radius: 10px;
+     -webkit-border-radius: 10px;
+     border-radius: 10px;
+     margin: 10px;
+     width: 50%;
+     display: block;
+    margin-left: auto;
+    margin-right: auto
+     }
+
+.button5 
+{
+	border-radius: 20%;
+	background-color: #008CBA;
+	margin: 25px 10% 10px 20%;
+	float: left;
+}
+
+.button6
+{
+	border-radius: 20%;
+	background-color: #4CAF50;
+	margin: 0px 20% 10px 2%;
+	float: right;
+}
+ 
+
+
+@media screen and (max-width: 1024px)
+{
+
+footer
+{
+   display: none;
+}
